@@ -132,6 +132,7 @@ Key reported snapshot (from results):
 - CV (sampled 5-fold on 100k rows): mean accuracy = 0.99872 (std = 0.00019)
 
 Other candidate models / ensembles (examples):
+
 - Best saved non-CatBoost stack/blend: accuracy ≈ 0.9758250532292406 (≈ 97.58%)
 
 Sources (ground truth): `results/catboost_raw_results.json`, `results/catboost_checks.json`, `results/final_comparison_report.md`, `results/blend_results.json`
@@ -214,5 +215,5 @@ Educational / research use. See `LICENSE` if included.
 
 <!-- dmlnbmVzaA== -->
 
-| 🌟 Made with ❤️ by**Sai Meghana** 🌟 |
-| :------------------------------------------: |
+| 🌟 Made with ❤️ by **Sai Meghana** 🌟 |
+| :--------------------------------------------: |
