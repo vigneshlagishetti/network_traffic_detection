@@ -1,0 +1,129 @@
+############################
+# Python caches & build
+############################
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+build/
+dist/
+
+############################
+# Environments & editor
+############################
+.env
+.env.*
+.venv/
+venv/
+env/
+.vscode/
+
+############################
+# OS
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Jupyter
+############################
+.ipynb_checkpoints/
+
+############################
+# Data
+############################
+# Keep primary dataset at repo root (combine.csv). Ignore bulky raw dumps under data/raw.
+data/raw/
+combine.csv
+combine..csv
+
+############################
+# Models
+############################
+# Ignore large model artifacts except the promoted production bundle and raw CatBoost run.
+models/*
+!models/final_detector.joblib
+!models/catboost_raw.joblib
+
+############################
+# Results
+############################
+# Track canonical JSON results, but ignore heavy predictions, logs, and figure exports.
+results/*.log
+results/*stdout.log
+results/*predictions.csv
+results/figs/
+results/figures/
+
+############################
+# CatBoost training folder
+############################
+catboost_info/
+
+############################
+# MLflow (if used)
+############################
+mlruns/
+
+############################
+# Byterover rules (dev tooling)
+############################
+.clinerules/byterover-rules.md
+.kilocode/rules/byterover-rules.md
+.roo/rules/byterover-rules.md
+.windsurf/rules/byterover-rules.md
+.cursor/rules/byterover-rules.mdc
+.kiro/steering/byterover-rules.md
+.qoder/rules/byterover-rules.md
+.augment/rules/byterover-rules.md
+
+############################
+# Docs & PDFs (local-only)
+############################
+# Ignore the long MANET/ABA paper PDF kept locally at repo root
+Adaptive-Voting-Mechanism-with-Artificial-Butterfly-Algorithm-based-Feature-Selection-for-IDS-in-MANET.pdf
+
+# Ignore the detailed full report if generated locally
+README_FULL.md
+readme_full.md
+
+
+############################
+# Local / unnecessary files
+############################
+# IDE/editor
+.idea/
+*.iml
+
+# Python test / cache
+.pytest_cache/
+.mypy_cache/
+__pypackages__/
+
+# Coverage, profiling and runtime caches
+.coverage
+.coverage.*
+.cache/
+htmlcov/
+
+# Database / runtime files
+*.sqlite3
+*.db
+
+# Logs and backups
+*.log
+*.log.*
+*.bak
+*.orig
+*~
+*.swp
+
+# Local secrets / env overrides
+.env.local
+local_settings.py
+credentials.json
+
+# Editor specific
+.ropeproject/
+.vscode/*
+

@@ -1,0 +1,13 @@
+{
+  "test_acc": 0.9571504613200852,
+  "test_f1": 0.9605971610376897,
+  "test_auc": 0.9908540969777603,
+  "aba_best_score": null,
+  "n_selected_features": 800,
+  "params": {
+    "n_estimators": 500,
+    "learning_rate": 0.03,
+    "num_leaves": 31
+  },
+  "threshold": 0.1
+}

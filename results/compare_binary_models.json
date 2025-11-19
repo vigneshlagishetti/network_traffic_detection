@@ -1,0 +1,9 @@
+{
+  "lightgbm": {
+    "acc_mean": 1.0,
+    "acc_std": 0.0,
+    "f1_mean": 1.0,
+    "f1_std": 0.0,
+    "auc_mean": NaN
+  }
+}

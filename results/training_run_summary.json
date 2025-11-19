@@ -1,0 +1,12 @@
+{
+  "model_path": "final_lgb_model_retrained.joblib",
+  "n_train": 107077,
+  "n_val": 18896,
+  "n_test": 22544,
+  "accuracy": 0.975736337828247,
+  "f1": 0.976891555067382,
+  "precision": 0.9780898401150495,
+  "recall": 0.9756962025316456,
+  "roc_auc": 0.9961059042532625,
+  "best_iteration": 1410
+}

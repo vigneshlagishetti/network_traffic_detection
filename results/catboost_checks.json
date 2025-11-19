@@ -1,0 +1,143 @@
+{
+  "catboost_saved_threshold": 0.496,
+  "cat_features": [
+    " Destination Port",
+    "Fwd PSH Flags",
+    " Bwd PSH Flags",
+    " Fwd URG Flags",
+    " Bwd URG Flags",
+    "FIN Flag Count",
+    " SYN Flag Count",
+    " RST Flag Count",
+    " PSH Flag Count",
+    " ACK Flag Count",
+    " URG Flag Count",
+    " CWE Flag Count",
+    " ECE Flag Count",
+    " Down/Up Ratio",
+    "Fwd Avg Bytes/Bulk",
+    " Fwd Avg Packets/Bulk",
+    " Fwd Avg Bulk Rate",
+    " Bwd Avg Bytes/Bulk",
+    " Bwd Avg Packets/Bulk",
+    "Bwd Avg Bulk Rate",
+    " min_seg_size_forward"
+  ],
+  "n_rows_total": 2214469,
+  "sample_size_for_importance": 200000,
+  "top_20_feature_importance": [],
+  "top_20_permutation_importance": [
+    [
+      " Destination Port",
+      0.09369696166508644
+    ],
+    [
+      "Init_Win_bytes_forward",
+      0.000673500469104619
+    ],
+    [
+      " Bwd Packet Length Std",
+      0.00021499061448286097
+    ],
+    [
+      " Init_Win_bytes_backward",
+      0.00019651752247062948
+    ],
+    [
+      " Bwd Header Length",
+      0.00010155338459609069
+    ],
+    [
+      " min_seg_size_forward",
+      4.383996894019582e-05
+    ],
+    [
+      " Flow IAT Min",
+      2.3353100077579587e-05
+    ],
+    [
+      " Fwd IAT Min",
+      2.322446516500598e-05
+    ],
+    [
+      " Average Packet Size",
+      2.150927285926585e-05
+    ],
+    [
+      " Bwd Packets/s",
+      1.4569662883508657e-05
+    ],
+    [
+      " Flow Duration",
+      1.4414507168510523e-05
+    ],
+    [
+      " Subflow Fwd Bytes",
+      1.0025765396122951e-05
+    ],
+    [
+      "Flow Bytes/s",
+      9.972002136741468e-06
+    ],
+    [
+      "Total Length of Fwd Packets",
+      5.919551356166804e-06
+    ],
+    [
+      " PSH Flag Count",
+      4.901477286415694e-06
+    ],
+    [
+      " Down/Up Ratio",
+      3.6351540725713485e-06
+    ],
+    [
+      " Max Packet Length",
+      3.462137408964209e-06
+    ],
+    [
+      "Idle Mean",
+      2.3643205181259988e-06
+    ],
+    [
+      " Fwd Header Length.1",
+      2.1970770904822245e-06
+    ],
+    [
+      " Idle Max",
+      2.0020499648850296e-06
+    ]
+  ],
+  "cv_results": [
+    {
+      "fold": 1,
+      "n_test": 20000,
+      "accuracy": 0.99885,
+      "roc_auc": 0.999906905614201
+    },
+    {
+      "fold": 2,
+      "n_test": 20000,
+      "accuracy": 0.9985,
+      "roc_auc": 0.9999597339060644
+    },
+    {
+      "fold": 3,
+      "n_test": 20000,
+      "accuracy": 0.9988,
+      "roc_auc": 0.9999321997994921
+    },
+    {
+      "fold": 4,
+      "n_test": 20000,
+      "accuracy": 0.99895,
+      "roc_auc": 0.9999702604588472
+    },
+    {
+      "fold": 5,
+      "n_test": 20000,
+      "accuracy": 0.9985,
+      "roc_auc": 0.9998888758637456
+    }
+  ]
+}

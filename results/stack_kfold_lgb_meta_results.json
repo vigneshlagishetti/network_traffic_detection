@@ -1,0 +1,18 @@
+{
+  "n_base_models": 4,
+  "n_folds": 5,
+  "keep_idx": null,
+  "test_best_threshold": 0.146,
+  "test_best_accuracy": 0.9748935415188077,
+  "test_confusion": [
+    [
+      10376,
+      318
+    ],
+    [
+      248,
+      11602
+    ]
+  ],
+  "test_roc_auc": 0.9952751809248295
+}

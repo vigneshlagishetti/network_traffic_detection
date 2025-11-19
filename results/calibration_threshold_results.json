@@ -1,0 +1,51 @@
+{
+  "best_method": "raw",
+  "best_threshold": 0.35000000000000003,
+  "results": {
+    "raw": {
+      "best_threshold": {
+        "threshold": 0.35000000000000003,
+        "accuracy": 0.9728974449964514
+      },
+      "metrics_at_best": {
+        "accuracy": 0.9728974449964514,
+        "f1": 0.9742920856649977,
+        "precision": 0.9715532432659226,
+        "recall": 0.9770464135021097,
+        "roc_auc": 0.9956546278957639,
+        "specificity": 0.968299981297924
+      },
+      "roc_auc": 0.9956546278957639
+    },
+    "platt": {
+      "best_threshold": {
+        "threshold": 0.074,
+        "accuracy": 0.9728974449964514
+      },
+      "metrics_at_best": {
+        "accuracy": 0.9728974449964514,
+        "f1": 0.9742920856649977,
+        "precision": 0.9715532432659226,
+        "recall": 0.9770464135021097,
+        "roc_auc": 0.9956546278957639,
+        "specificity": 0.968299981297924
+      },
+      "roc_auc": 0.9956546278957639
+    },
+    "isotonic": {
+      "best_threshold": {
+        "threshold": 0.197,
+        "accuracy": 0.9724095102909865
+      },
+      "metrics_at_best": {
+        "accuracy": 0.9724095102909865,
+        "f1": 0.973706459249239,
+        "precision": 0.9755209215653058,
+        "recall": 0.9718987341772152,
+        "roc_auc": 0.9955245379916495,
+        "specificity": 0.9729755002805311
+      },
+      "roc_auc": 0.9955245379916495
+    }
+  }
+}

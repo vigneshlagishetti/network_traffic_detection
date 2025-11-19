@@ -1,0 +1,10 @@
+{
+  "selected_model": "final_lgb_model.joblib",
+  "final_model_path": "final_model_best.joblib",
+  "threshold_used": 0.3506294007328901,
+  "accuracy_at_threshold": 0.975958126330731,
+  "f1_at_threshold": 0.9770300050856078,
+  "precision_at_threshold": 0.981355355014473,
+  "recall_at_threshold": 0.9727426160337552,
+  "roc_auc": 0.9954310157752405
+}

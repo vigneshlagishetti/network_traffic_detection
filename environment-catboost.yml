@@ -1,0 +1,16 @@
+name: fruty-catboost
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - joblib
+  - lightgbm
+  - xgboost
+  - optuna
+  - catboost
+  - pip:
+    - tqdm

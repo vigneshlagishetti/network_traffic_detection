@@ -1,0 +1,8 @@
+{
+  "test_accuracy": 0.9714336408800568,
+  "test_f1": 0.9727072385150025,
+  "test_auc": 0.9956546278957639,
+  "n_train_samples": 125973,
+  "n_features": 3458,
+  "best_iteration": 1999
+}

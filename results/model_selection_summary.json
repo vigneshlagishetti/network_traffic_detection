@@ -1,0 +1,12 @@
+{
+  "selected_model": "final_lgb_model.joblib",
+  "metrics": {
+    "accuracy": 0.9714336408800568,
+    "f1": 0.9727072385150025,
+    "precision": 0.9770134513877065,
+    "recall": 0.9684388185654008,
+    "roc_auc": 0.9956546278957639,
+    "specificity": 0.9747521974939218
+  },
+  "composite": 0.9835441343879103
+}

@@ -1,0 +1,15 @@
+{
+  "cv_acc_mean": 1.0,
+  "cv_acc_std": 0.0,
+  "cv_f1_mean": 1.0,
+  "cv_f1_std": 0.0,
+  "cv_auc_mean": NaN,
+  "cv_auc_std": NaN,
+  "cv_precision_mean": 1.0,
+  "cv_recall_mean": 1.0,
+  "n_samples": 125973,
+  "n_features": 3458,
+  "test_accuracy": 1.0,
+  "test_f1": 1.0,
+  "test_auc": NaN
+}

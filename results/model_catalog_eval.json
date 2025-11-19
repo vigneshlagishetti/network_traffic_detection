@@ -1,0 +1,43 @@
+{
+  "final_lgb_model.joblib": {
+    "accuracy": 0.9714336408800568,
+    "f1": 0.9727072385150025,
+    "precision": 0.9770134513877065,
+    "recall": 0.9684388185654008,
+    "roc_auc": 0.9956546278957639,
+    "pr_auc": 0.9959862634394437
+  },
+  "final_lgb_model_weighted.joblib": {
+    "accuracy": 0.9475691980127751,
+    "f1": 0.9490385444511512,
+    "precision": 0.9702045133991537,
+    "recall": 0.9287763713080168,
+    "roc_auc": 0.9903147512032062,
+    "pr_auc": 0.9898980911350348
+  },
+  "best_binary_model.joblib": {
+    "accuracy": 0.961985450674237,
+    "f1": 0.9634868561203187,
+    "precision": 0.9729799500903537,
+    "recall": 0.9541772151898734,
+    "roc_auc": 0.992596554398973,
+    "pr_auc": 0.9926023907960175
+  },
+  "best_model_for_99.joblib": {
+    "error": "no proba/decision_function: 'dict' object has no attribute 'decision_function'"
+  },
+  "ensemble_meta.joblib": {
+    "error": "no proba/decision_function: X has 3458 features, but LogisticRegression is expecting 1 features as input."
+  },
+  "catboost_wrapper.joblib": {
+    "error": "no proba/decision_function: 'dict' object has no attribute 'decision_function'"
+  },
+  "lgb_binary_full.joblib": {
+    "accuracy": 0.5256387508871541,
+    "f1": 0.6890736756411002,
+    "precision": 0.5256387508871541,
+    "recall": 1.0,
+    "roc_auc": 0.5,
+    "pr_auc": 0.5256387508871541
+  }
+}

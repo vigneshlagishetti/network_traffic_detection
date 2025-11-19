@@ -1,0 +1,2 @@
+model,accuracy,f1_macro
+lgb_quick,0.49121717530163234,0.06485691497336178

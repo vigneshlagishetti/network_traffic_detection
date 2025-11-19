@@ -1,0 +1,2 @@
+model,accuracy,f1_macro,n_features
+lgb_quick_weighted,0.6000709723207949,0.13908352173051977,3457

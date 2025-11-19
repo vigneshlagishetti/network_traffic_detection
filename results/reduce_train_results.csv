@@ -1,0 +1,2 @@
+method,k,accuracy,f1_macro
+mutual_info_topk,200,0.474361249112846,0.029249106991450093

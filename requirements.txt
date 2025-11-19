@@ -1,0 +1,47 @@
+catboost
+pandas
+scikit-learn
+joblib
+numpy
+shap
+
+```pip-requirements
+# Core
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+imbalanced-learn>=0.9.0
+lightgbm>=3.3.0
+xgboost>=1.5.0
+joblib>=1.1.0
+
+# Optimization / search
+optuna>=3.0.0
+pyswarms>=1.3.0
+pygad>=2.18.0
+
+# DL (optional)
+tensorflow>=2.8.0
+keras>=2.8.0
+
+# Visualization & explainability
+matplotlib>=3.4.0
+seaborn>=0.11.0
+shap>=0.41.0
+
+# Experiment tracking / utils
+mlflow>=2.0.0
+requests>=2.26.0
+python-dateutil>=2.8.1
+
+# Notes on CatBoost (optional)
+# CatBoost is listed below but may not have pip wheels for newer Python on Windows
+# If you need CatBoost, prefer installing via conda-forge or use Python 3.11/3.10.
+# To install via conda:
+#   conda install -c conda-forge catboost
+# To attempt pip install (may require Visual Studio Build Tools on Windows):
+#   python -m pip install --upgrade --force-reinstall catboost
+# If pip fails with a Visual Studio error, either install Build Tools or use conda.
+catboost>=1.0.0  # optional on Windows; prefer conda-forge
+
+``` 

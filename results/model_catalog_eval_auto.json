@@ -1,0 +1,135 @@
+{
+  "bag_lgb_0.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "bag_lgb_1.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "bag_lgb_10.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "bag_lgb_11.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "bag_lgb_2.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "bag_lgb_3.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "bag_lgb_4.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "bag_lgb_5.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "bag_lgb_6.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "bag_lgb_7.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "bag_lgb_8.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "bag_lgb_9.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "best_binary_model.joblib": {
+    "accuracy": 0.961985450674237,
+    "f1": 0.9634868561203187,
+    "precision": 0.9729799500903537,
+    "recall": 0.9541772151898734,
+    "roc_auc": 0.992596554398973,
+    "specificity": 0.9706377407892276
+  },
+  "best_model_for_99.joblib": {
+    "error": "no proba/decision_function: AttributeError(\"'dict' object has no attribute 'predict_proba'\"); AttributeError(\"'dict' object has no attribute 'decision_function'\")"
+  },
+  "catboost_wrapper.joblib": {
+    "error": "no proba/decision_function: AttributeError(\"'dict' object has no attribute 'predict_proba'\"); AttributeError(\"'dict' object has no attribute 'decision_function'\")"
+  },
+  "ensemble_base_lgb_fold0.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "ensemble_base_lgb_fold1.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "ensemble_base_lgb_fold2.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "ensemble_base_lgb_fold3.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "ensemble_base_lgb_fold4.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LGBMClassifier is expecting 800 features as input.'); AttributeError(\"'LGBMClassifier' object has no attribute 'decision_function'\")"
+  },
+  "ensemble_meta.joblib": {
+    "error": "no proba/decision_function: ValueError('X has 3458 features, but LogisticRegression is expecting 1 features as input.'); ValueError('X has 3458 features, but LogisticRegression is expecting 1 features as input.')"
+  },
+  "final_lgb_model.joblib": {
+    "accuracy": 0.9714336408800568,
+    "f1": 0.9727072385150025,
+    "precision": 0.9770134513877065,
+    "recall": 0.9684388185654008,
+    "roc_auc": 0.9956546278957639,
+    "specificity": 0.9747521974939218
+  },
+  "final_lgb_model_weighted.joblib": {
+    "accuracy": 0.9475691980127751,
+    "f1": 0.9490385444511512,
+    "precision": 0.9702045133991537,
+    "recall": 0.9287763713080168,
+    "roc_auc": 0.9903147512032062,
+    "specificity": 0.9683934916775762
+  },
+  "final_model_best.joblib": {
+    "accuracy": 0.9714336408800568,
+    "f1": 0.9727072385150025,
+    "precision": 0.9770134513877065,
+    "recall": 0.9684388185654008,
+    "roc_auc": 0.9956546278957639,
+    "specificity": 0.9747521974939218
+  },
+  "lgb_binary_full.joblib": {
+    "accuracy": 0.474361249112846,
+    "f1": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "roc_auc": 0.5,
+    "specificity": 1.0
+  },
+  "lgb_binary_quick.joblib": {
+    "error": "no proba/decision_function: AttributeError(\"'dict' object has no attribute 'predict_proba'\"); AttributeError(\"'dict' object has no attribute 'decision_function'\")"
+  },
+  "lgb_quick.joblib": {
+    "accuracy": 0.4744499645138396,
+    "f1": 0.0003374957813027337,
+    "precision": 1.0,
+    "recall": 0.00016877637130801687,
+    "roc_auc": 0.500084388185654,
+    "specificity": 1.0
+  },
+  "lgb_quick_weighted.joblib": {
+    "error": "no proba/decision_function: AttributeError(\"'dict' object has no attribute 'predict_proba'\"); AttributeError(\"'dict' object has no attribute 'decision_function'\")"
+  },
+  "lgb_reduce_topk.joblib": {
+    "error": "no proba/decision_function: AttributeError(\"'dict' object has no attribute 'predict_proba'\"); AttributeError(\"'dict' object has no attribute 'decision_function'\")"
+  },
+  "majority_always_positive.joblib": {
+    "accuracy": 0.5256387508871541,
+    "f1": 0.6890736756411002,
+    "precision": 0.5256387508871541,
+    "recall": 1.0,
+    "roc_auc": 0.5,
+    "specificity": 0.0
+  },
+  "majority_baseline.joblib": {
+    "accuracy": 0.474361249112846,
+    "f1": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "roc_auc": 0.5,
+    "specificity": 1.0
+  }
+}

@@ -1,0 +1,5 @@
+train shape: (125973, 3458), y shape: (125973,)
+test shape: (22544, 3458), y shape: (22544,)
+Saved class distribution plot: results/figures/class_distribution_train.png
+Saved missingness plot: results/figures/missingness_train.png
+Saved sample feature histograms to results/figures/

@@ -1,0 +1,26 @@
+{
+  "used_models": [
+    "pruned_stack.joblib",
+    "optuna_pruned_light.joblib",
+    "stack_improved.joblib",
+    "lgb_optuna_tuned.joblib",
+    "lgb_weighted_baseline.joblib"
+  ],
+  "n_models": 5,
+  "test_best_threshold": 0.394,
+  "test_best_accuracy": 0.9758250532292406,
+  "test_confusion": [
+    [
+      10354,
+      340
+    ],
+    [
+      205,
+      11645
+    ]
+  ],
+  "test_roc_auc": 0.9959874972282261,
+  "precision": 0.9716312056737588,
+  "recall": 0.9827004219409282,
+  "f1": 0.9771344661212502
+}

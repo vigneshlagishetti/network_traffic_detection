@@ -1,0 +1,79 @@
+{
+  "selected_model": "C:/ECHO/Projects/Personal_Projects/Fruty/models/final_detector.joblib",
+  "selected_at": "2025-11-01T13:14:32.751706Z",
+  "reason": "Best single-model performance (accuracy and ROC AUC) from CatBoost training on raw combine.csv; validated by permutation importance and sampled 5-fold CV.",
+  "metrics": {
+    "n_rows": 2214469,
+    "n_features": 78,
+    "categorical_columns": [
+      " Destination Port",
+      "Fwd PSH Flags",
+      " Bwd PSH Flags",
+      " Fwd URG Flags",
+      " Bwd URG Flags",
+      "FIN Flag Count",
+      " SYN Flag Count",
+      " RST Flag Count",
+      " PSH Flag Count",
+      " ACK Flag Count",
+      " URG Flag Count",
+      " CWE Flag Count",
+      " ECE Flag Count",
+      " Down/Up Ratio",
+      "Fwd Avg Bytes/Bulk",
+      " Fwd Avg Packets/Bulk",
+      " Fwd Avg Bulk Rate",
+      " Bwd Avg Bytes/Bulk",
+      " Bwd Avg Packets/Bulk",
+      "Bwd Avg Bulk Rate",
+      " min_seg_size_forward"
+    ],
+    "cat_idx": [
+      0,
+      30,
+      31,
+      32,
+      33,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      69
+    ],
+    "best_threshold": 0.496,
+    "best_accuracy": 0.9990456665131303,
+    "confusion": [
+      [
+        250691,
+        234
+      ],
+      [
+        83,
+        81161
+      ]
+    ],
+    "roc_auc": 0.9999598440131221,
+    "model_info": {
+      "iterations": 2000,
+      "learning_rate": 0.03,
+      "depth": 6,
+      "random_seed": 42,
+      "verbose": 100,
+      "eval_metric": "AUC",
+      "early_stopping_rounds": 50
+    }
+  },
+  "inference_cli": "src/predict_with_catboost.py",
+  "threshold": 0.496
+}

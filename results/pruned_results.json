@@ -1,0 +1,11 @@
+{
+  "n_features_original": 3458,
+  "n_features_pruned": 543,
+  "n_dropped": 2915,
+  "roc_auc": 0.9954310157752405,
+  "best_threshold": 0.184,
+  "accuracy_at_best_threshold": 0.9770227111426544,
+  "f1": 0.9781176072997634,
+  "precision": 0.979275926239215,
+  "recall": 0.9769620253164557
+}

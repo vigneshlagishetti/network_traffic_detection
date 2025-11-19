@@ -1,0 +1,2 @@
+model,accuracy,f1_binary,n_features
+lgb_binary_quick,1.0,1.0,3457
